@@ -1183,7 +1183,7 @@ pub type DynamoDbStore =
 /// The combined error type for [`DynamoDbStore`].
 pub type DynamoDbStoreError = ValueSplittingError<DynamoDbStoreInternalError>;
 
-/// The config type for [`DynamoDbStore`]`
+/// The config type for [`DynamoDbStore`]
 pub type DynamoDbStoreConfig = LruCachingConfig<DynamoDbStoreInternalConfig>;
 
 impl DynamoDbStoreConfig {
